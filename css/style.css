@@ -1,0 +1,134 @@
+body {
+    background-color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+main{
+    display: inline-block;
+    width: 1024px;
+    height: 500px;
+    margin-left: 2%;
+    margin-top: 0%;
+}
+
+img{ 
+    width: 550px;
+    height: 500px;
+    float: right; 
+    margin-top: 10px; 
+    border: solid white 5px padding 20px ; 
+    width: 550px; 
+}
+p{
+    background-color: white;
+}
+
+
+.clay{
+    font-size:20px ; 
+    font-weight: bold; 
+    margin-left: 5%; 
+    cursor: pointer;
+    text-decoration: none;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, fantasy;
+    
+}
+.text {
+    background-color: white;
+    color: #000000;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, fantasy;
+    margin: 3px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.text:hover{
+    background-color: rgb(240, 239, 239);
+}
+
+.button1{
+    color: #000000;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, fantasy;
+    margin: 3px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: #664488 ;
+    border-radius: 30px; 
+    color: white;
+}
+.button2 {
+    background-color: white;
+    color: #000000;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, fantasy;
+    margin: 3px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+    border: solid #664488;
+}
+
+
+a.button1:hover{
+    padding: 12px 30px;
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, fantasy;
+    margin: 3px 2px;
+    cursor: pointer;
+    background-color: rgb(240, 239, 239);  
+}
+p.button2:hover{
+    padding: 12px 30px;
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, fantasy;
+    margin: 3px 2px;
+    cursor: pointer;
+    color:white;
+    background-color: rgb(240, 239, 239);  
+    border:rgb(240, 239, 239);
+}
+
+
+.social {
+    /* margin: 5px; */
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+}
+.social a{
+    font-size: 30px;
+    color: grey;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+    display: inline-block
+}
+.rights{
+    padding: 15px;
+    position: relative;
+    margin: 10px;
+    color:silver
+}

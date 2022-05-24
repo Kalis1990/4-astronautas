@@ -1,11 +1,11 @@
 {
-  "name": "4-astronautas",
+  "name": "2--better-than-ufo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-     "dev": "dead-server --port=3005 --host=localhost" 
+    "dev": "dead-server --port=3008 --host=localhost",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Rafal K",
