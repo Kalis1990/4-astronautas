@@ -23,9 +23,3 @@ Design: [Astronaut]https://dribbble.com/shots/5964475-404-Lost-in-Space/
 
 ## Authors
 
-Rimantas: [Github](https://github.com/belauzas)
-Kasparas Griškus: [Github](https://github.com/Paskanas)
-Regina Sadeckienė: [Github](https://github.com/reginareg)
-Dovilė Bilkštienė: [Github](https://github.com/Dovile-dote)
-Kristina Leonavičiūtė: [Github](https://github.com/Kristle22)
-Kristina Rudytė: [Github](https://github.com/krikri89)
