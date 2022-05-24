@@ -1,0 +1,33 @@
+Header{
+    width: 800px;
+    margin: auto;
+    Background-color:yellow;
+    display: flex;
+    margin-bottom: 30px;
+    
+}
+main{
+    width: 800px;
+    margin: auto;
+    Background-color:green;
+    display: flex;
+    margin-bottom: 30px;
+}
+footer{
+    width: 800px;
+    margin: auto;
+    Background-color:red;
+    display: flex;
+}
+.button1{
+    padding: 18px 32px;
+    border-radius: 30px;
+    color: violet
+}
+.button2{
+    padding: 18px 32px;
+    border-radius: 30px;
+    color: violet;
+    background-color: white;
+    border: solid violet;
+}
