@@ -4,6 +4,7 @@ body {
 header{
     display: flex;
     justify-content: space-between;
+    margin-left: 5%;
 }
 footer{
     display: flex;
@@ -17,6 +18,11 @@ main{
     margin-left: 2%;
     margin-top: 0%;
 }
+/* main > img:hover{
+    transform: rotate(180deg);
+    transition: all 1s;
+    opacity: 0;
+} */
 
 img{ 
     width: 550px;
@@ -25,6 +31,7 @@ img{
     margin-top: 10px; 
     border: solid white 5px padding 20px ; 
     width: 550px; 
+    transition: all 1s
 }
 p{
     background-color: white;
@@ -34,7 +41,6 @@ p{
 .clay{
     font-size:20px ; 
     font-weight: bold; 
-    margin-left: 5%; 
     cursor: pointer;
     text-decoration: none;
     padding: 12px 30px;
@@ -69,12 +75,13 @@ p{
     display: inline-flex;
     font-size: 14px;
     font-family: Georgia, 'Times New Roman', Times, fantasy;
-    margin: 3px 2px;
+    line-height: 20px;
     cursor: pointer;
     border-radius: 24px;
     background-color: #664488 ;
     color: white;
-    box-shadow: 0 3px #999;
+    /* box-shadow: 3px 3px 3px #999;
+    transition: 0.5s; */
 }
 .button2 {
     background-color: white;
@@ -85,31 +92,28 @@ p{
     display: inline-flex;
     font-size: 14px;
     font-family: Georgia, 'Times New Roman', Times, fantasy;
-    margin: 3px 2px;
+    line-height: 20px;
     cursor: pointer;
     border-radius: 24px;
     border: solid #664488;
-    box-shadow: 0 3px #999;
+    /* box-shadow: 3px 3px 3px #999;
+    transition: 0.5s; */
 }
 
 
 a.button1:hover{
-    padding: 12px 30px;
-    font-size: 13px;
-    font-family: Georgia, 'Times New Roman', Times, fantasy;
-    margin: 3px 2px;
-    cursor: pointer;
+    
     background-color: rgb(240, 239, 239);  
+    /* transform: rotate(360deg);
+    transition: 0.5s; */
 }
 p.button2:hover{
-    padding: 12px 30px;
-    font-size: 13px;
-    font-family: Georgia, 'Times New Roman', Times, fantasy;
-    margin: 3px 2px;
-    cursor: pointer;
+    
     color:white;
     background-color: rgb(240, 239, 239);  
     border:rgb(240, 239, 239);
+    /* transform: rotate(360deg);
+    transition: 0.5s; */
 }
 
 
@@ -126,6 +130,9 @@ p.button2:hover{
     margin: 10px;
     border-radius: 6px;
     display: inline-block
+}
+.social a:hover{
+    color:#664488;
 }
 .rights{
     padding: 15px;
